@@ -6,7 +6,11 @@ import Footer from '../sections/Footer.astro'
 ---
 
 <Layout>
-	<Header />
-	<Hero />
-	<Footer />
+	<div class='flex flex-col min-h-screen'>
+		<Header />
+		<div class=' flex flex-1'>
+			<Hero />
+		</div>
+		<Footer />
+	</div>
 </Layout>
